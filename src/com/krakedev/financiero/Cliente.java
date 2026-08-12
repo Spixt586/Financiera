@@ -34,22 +34,14 @@ public class Cliente {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
-	
-	public Cliente getPropietario() {
-		return propietario;
-	}
-
-	public void setPropietario(Cliente propietario) {
-		this.propietario = propietario;
-	}
 
 	public void imprimir() {
 		System.out.println("========================================");
 		System.out.println("            DATOS DEL CLIENTE           ");
 		System.out.println("========================================");
-		System.out.printf("Cédula         : " + cedula);
-		System.out.printf("Nombre         : " + nombre);
-		System.out.printf("Apellido       : " + apellido);
+		System.out.println("Cédula         : " + cedula);
+		System.out.println("Nombre         : " + nombre);
+		System.out.println("Apellido       : " + apellido);
 		System.out.println("========================================");
 	}
 

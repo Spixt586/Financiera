@@ -57,16 +57,16 @@ public class Cuenta {
 			System.out.println("========================================");
 			System.out.println("           DATOS DE LA CUENTA          ");
 			System.out.println("========================================");
-			System.out.printf("Cuenta N°      : %s%n", id);
-			System.out.printf("Nombre         : %s%n", nombre);
-			System.out.printf("Tipo de cuenta : %s%n", tipo);
-			System.out.printf("Saldo actual   : $%,.2f%n", saldoActual);
+			System.out.println("Cuenta N°      : "+ id);
+			System.out.println("Nombre         : "+ nombre);
+			System.out.println("Tipo de cuenta : "+ tipo);
+			System.out.println("Saldo actual   : "+ saldoActual);
 			System.out.println("========================================");
 			System.out.println("            DATOS DEL CLIENTE           ");
 			System.out.println("========================================");
-			System.out.printf("Cédula         : " + propietario.getCedula());
-			System.out.printf("Nombre         : " + propietario.getNombre());
-			System.out.printf("Apellido       : " + propietario.getApellido());
+			System.out.println("Cédula         : " + propietario.getCedula());
+			System.out.println("Nombre         : " + propietario.getNombre());
+			System.out.println("Apellido       : " + propietario.getApellido());
 			System.out.println("========================================");
 		
 	}
